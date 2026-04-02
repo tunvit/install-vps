@@ -1,10 +1,10 @@
 @echo off
 setlocal
 
-set SERVER_NAME=103.74.106.93
-set SERVER_PORT=55129
+set SERVER_NAME=127.0.0.1
+set SERVER_PORT=1102
 set SERVER_USERNAME=administrator
-set SERVER_PASSWORD=8r5I21dqCvsdT0
+set SERVER_PASSWORD=password
 set OUTPUT_FILE=%SERVER_NAME:.=_%
 set OUTPUT_FILE=%OUTPUT_FILE%.rdg
 set PS1=%~dp0~temp_rdg.ps1
